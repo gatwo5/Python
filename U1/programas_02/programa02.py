@@ -28,10 +28,20 @@ tipo str.
 
 num = 6
 
-print(type(6))
-print(type(num))
+print(id(6))
+print(id(num))
 
 num2 = num
 
-print(type(6))
-print(type(num2))
+print(id(6))
+print(id(num2))
+
+print(num is num2)
+print(num is not num2)
+
+num = "Hola"
+print(id(num))
+print(id("Hola"))
+
+print(isinstance(num,str))
+print(isinstance(num2,int))
