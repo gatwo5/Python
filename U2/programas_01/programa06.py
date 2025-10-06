@@ -1,3 +1,4 @@
+'''Escribe un programa que pida una fecha (día, mes y año) y diga si es correcta'''
 dia = int(input('Introduce el dia '))
 mes = int(input('Introduce el mes '))
 anno = int(input('Introduce el año '))

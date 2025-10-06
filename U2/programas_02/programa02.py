@@ -4,5 +4,5 @@ pedir el número hasta que no se introduzca correctamente
 '''
 num = 0
 
-while (0 > num > 10):
-    num = int(input('Introduce un numero'))
+while (num < 1 or num > 10):
+    num = int(input('Introduce un numero '))
