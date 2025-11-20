@@ -1,7 +1,7 @@
 #concatenacion
 
 cad1 = 'hola'
-cad2 = 'buenos días'
+cad2 = 'buenosdías'
 resultado = cad1 + cad2
 
 print(resultado)
