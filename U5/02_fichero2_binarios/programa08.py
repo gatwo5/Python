@@ -33,7 +33,7 @@ try:
 
             leidos = f_origen.readinto(buffer)
 
-    print(f"Copia finalizada correctamente.")
+    #print(f"Copia finalizada correctamente.")
     print(f"Total de bytes escritos: {total_bytes}")
 
 except IOError as e:
